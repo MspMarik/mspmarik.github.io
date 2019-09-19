@@ -1,3 +1,12 @@
 body {
     background-color: darkseagreen !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+#small {
+    width: 50px;
+}
+
+#mybold {
+    font-weight: 700;
 }
