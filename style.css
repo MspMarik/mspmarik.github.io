@@ -3,10 +3,15 @@ body {
     font-family: 'Quicksand', sans-serif !important;
 }
 
-#small {
+.small {
     width: 50px;
 }
 
-#mybold {
+.mybold {
     font-weight: 700;
+}
+
+.lrpad {
+    padding-left: 1em;
+    padding-right: 1em;
 }
