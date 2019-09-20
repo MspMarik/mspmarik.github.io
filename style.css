@@ -7,6 +7,10 @@ body {
     width: 50px;
 }
 
+.carouselresize {
+    widows: 11em;
+}
+
 .mybold {
     font-weight: 700;
 }
