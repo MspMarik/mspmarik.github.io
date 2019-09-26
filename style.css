@@ -1,6 +1,7 @@
 body {
     background-color: darkseagreen !important;
     font-family: 'Mina', sans-serif !important;
+    min-width: 300px !important;
 }
 
 .small {
