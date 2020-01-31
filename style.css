@@ -13,6 +13,7 @@ body {
 }
 
 .mybold {
+    margin-top: 10px;
     font-weight: 700;
 }
 
@@ -44,4 +45,14 @@ p {
 
 #carousel1 {
     width: 50%;
+}
+
+#homeMe{
+    margin: 10px;
+    width: 20%;
+}
+
+.row .card {
+    min-width: 18rem;
+    max-width: 24rem;
 }
