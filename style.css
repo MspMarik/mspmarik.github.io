@@ -83,3 +83,7 @@ p {
     font-size: 15pt;
     list-style-type: '›  ';
 }
+
+#work-places .card {
+    margin: 7px;
+}
