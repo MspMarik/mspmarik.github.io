@@ -69,3 +69,17 @@ p {
 .wtd-container:hover > .proj-img {
     width: 110%;
 }
+
+#important-links {
+    margin-left: auto;
+}
+
+#important-links .card {
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+#skills-list {
+    font-size: 15pt;
+    list-style-type: '›  ';
+}
