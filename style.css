@@ -1,21 +1,17 @@
-body {
+/* body {
     background-color: darkseagreen !important;
     font-family: 'Mina', sans-serif !important;
     min-width: 300px !important;
-}
+} */
 
 .small {
     width: 50px;
 }
 
-.carouselresize {
-    widows: 11em;
-}
-
-.mybold {
+/* .mybold {
     margin-top: 10px;
     font-weight: 700;
-}
+} */
 
 .lrpad {
     padding-left: 1em;
@@ -41,10 +37,6 @@ body {
 
 p {
     font-size: 15pt;
-}
-
-#carousel1 {
-    width: 50%;
 }
 
 #homeMe{
@@ -86,4 +78,8 @@ p {
 
 #work-places .card {
     margin: 7px;
+}
+
+.white-background {
+    background-color: white;
 }
