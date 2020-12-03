@@ -67,7 +67,7 @@ p {
 }
 
 .wtd-container:hover > .proj-img {
-    width: 110%;
+    width: 100%;
 }
 
 #important-links {
@@ -79,7 +79,7 @@ p {
     margin-bottom: 7px;
 }
 
-#skills-list {
+.skills-list {
     font-size: 15pt;
     list-style-type: '›  ';
 }
@@ -90,6 +90,16 @@ p {
 
 .white-background {
     background-color: white;
+}
+
+.homepage-card {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.wide {
+    max-width: 65rem !important;
 }
 
 @media only screen and (max-width: 575px) {
