@@ -60,6 +60,7 @@ p {
 .proj-img {
     width: 45%;
     margin-right: 10px;
+    transition: width 0.5s;
 }
 
 .proj-img:hover {
