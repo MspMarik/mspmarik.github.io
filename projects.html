@@ -1,163 +1,131 @@
 <!DOCTYPE html>
 <html class="no-js">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Projects</title>
+        <meta name="description" content="Mark Spivak's Website" />
 
-    <title>Projects</title>
-    <meta name="description" content="Mark Spivak's Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="images/drawing.png" />
 
-    <link rel="icon" type="image/png" href="images/drawing.png">
+        <link rel="stylesheet" href="style.css" />
 
-    <link rel="stylesheet" href="style.css">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Mina:400,700&display=swap" rel="stylesheet"> -->
 
-    <!-- <link href="https://fonts.googleapis.com/css?family=Mina:400,700&display=swap" rel="stylesheet"> -->
+        <link rel="stylesheet" href="bootstrap.css" />
 
-    <link rel="stylesheet" href="bootstrap.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </head>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-</head>
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <a class="navbar-brand" href="https://mspmarik.github.io/"><img src="images/drawing.png" class="small" style="padding-right: 0.5em; width: 50px" alt="drawing of me" />Mark Spivak</a>
 
-<body>
-    <div>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a class="navbar-brand" href="https://mspmarik.github.io/"><img src="images/drawing.PNG" class="small" style="padding-right: 0.5em; width: 50px;" alt="drawing of me" />Mark Spivak</a>
-            
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="work.html">Work Experience</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/MspMarik" target="_blank">GitHub</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="work.html">Work Experience</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/MspMarik" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-        <div id="projects" class="container lrpad float-left">
-            <h1 class="mybold">Projects</h1>
-            <div class="homepage-card card">
-                <h3><u>IoT Hug the Rails</u></h3>
-                <span class="proj-img-help-text">(hover over the image to enlage)</span>
-                <span class="proj-img-help-text-mobile">(tap the image to enlage)</span>                
-                <br>
-                <img class="proj-img" src="images/iothtr.jpg">
-                <p>
-                    The semester long project for my Software Development Process class was to make an IoT engine for a theoretical train.
-                </p>
-                <p>
-                    My three group members and I recieved requirements from theoretical stakeholders to create an IoT engine for a theoretical train. This engine provides suggestions to a conductor to operate a train properly and safely.
-                </p>
-                <p class="mb-0">
-                    Technologies used:
-                </p>
-                <ul class="skills-list">
-                    <li>Java</li>
-                    <li>Java Swing</li>
-                </ul>
-            </div>
-            <div class="homepage-card card">
-                <h3><u>Dorm Clock</u></h3>
-                <span class="proj-img-help-text">(hover over the image to enlage)</span>
-                <span class="proj-img-help-text-mobile">(tap the image to enlage)</span>                
-                <br>
-                <img class="proj-img" src="images/dorm_clockjpg.jpg">
-                <br><br>
-                <a class="mybold" href="https://github.com/MaxSurets/dorm-clock" target="_blank">GitHub page for the Dorm Clock project</a>
-                <p>
-                    My roomate and I wanted a clock for our dorm room that also displayed relevant and useful information.
-                </p>
-                <p>
-                    We created a webpage that contains the time, day of the week, and weather data using React, React Redux, and express.js to display on a laptop.
-                </p>
-                <p class="mb-0">
-                    Technologies used:
-                </p>
-                <ul class="skills-list">
-                    <li>React</li>
-                    <li>React Redux</li>
-                    <li>express.js</li>
-                    <li>DarkSky REST API</li>
-                </ul>
-            </div>
-            <div class="homepage-card card">
-                <h3><u>Where the Duck?</u></h3>
-                <span class="proj-img-help-text">(hover over the image to enlage)</span>
-                <span class="proj-img-help-text-mobile">(tap the image to enlage)</span>    
-                <br>
-                <div class="wtd-container"><img class="proj-img" src="images/where_the_duck_index.png"><img class="proj-img" src="images/where_the_duck_feedback.png"></div>
-                <br>
-                <a class="mybold" href="https://github.com/MspMarik/where-the-duck" target="_blank">GitHub page for Where the Duck?</a>
-                <p>
-                    The semester long project for my Web Design and Project Management class was to make a website.
-                </p>
-                <p>
-                    My three group members and I created a simple website that shows the location to many buildings on Stevens Institute of Technology's campus and many other locations (i.e. restaurants) in the surrounding Hoboken area. 
-                </p>
-                <p class="mb-0">
-                    Technologies used:
-                </p>
-                <ul class="skills-list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </div>
-            <div class="homepage-card card">
-                <h3><u>CSV to Excel</u></h3>
-                <p>
-                    <a href="https://www.chefmod.com" target="_blank">ChefModd LLC</a> tasked me with creating a file conversion program.
-                </p>
-                <p>
-                    I created helper windows desktop app to convert Excel spreadsheets to CSV text files to automate manual price updates from food suppliers. The app allows the conversion of one or multiple files at a time.
-                </p>
-                <p class="mb-0">
-                    Technologies used:
-                </p>
-                <ul class="skills-list">
-                    <li>C#</li>
-                    <li>.NET</li>
-                    <li>Windows Forms</li>
-                    <li>Microsoft Office Excel API</li>
-                </ul>
-            </div>
-            <div class="homepage-card card">
-                <h3><u>Weather Integration</u></h3>
-                <p>
-                    <a href="https://www.chefmod.com" target="_blank">ChefModd LLC</a> tasked me with integrating a weather forecast application into the customer facing web and mobile app.
-                </p>
-                <p>
-                    I created a middleware component to collect weather data from Yahoo Weather services to display relevant weather information for customer facing web and mobile app.
-                </p>
-                <p class="mb-0">
-                    Technologies used:
-                </p>
-                <ul class="skills-list">
-                    <li>MSSQL Server 2012</li>
-                    <li>LINQ-to-SQL</li>
-                    <li>ORM</li>
-                    <li>WCF</li>
-                    <li>C#</li>
-                    <li>.NET</li>
-                </ul>
+            <div id="projects" class="container lrpad float-left">
+                <h1 class="mybold">Projects</h1>
+                <div class="homepage-card card">
+                    <h3><u>IoT Hug the Rails</u></h3>
+                    <span class="proj-img-help-text">(hover over the image to enlage)</span>
+                    <span class="proj-img-help-text-mobile">(tap the image to enlage)</span>
+                    <br />
+                    <img class="proj-img" src="images/iothtr.jpg" />
+                    <p>The semester long project for my Software Development Process class was to make an IoT engine for a theoretical train.</p>
+                    <p>My three group members and I recieved requirements from theoretical stakeholders to create an IoT engine for a theoretical train. This engine provides suggestions to a conductor to operate a train properly and safely.</p>
+                    <p class="mb-0">Technologies used:</p>
+                    <ul class="skills-list">
+                        <li>Java</li>
+                        <li>Java Swing</li>
+                    </ul>
+                </div>
+                <div class="homepage-card card">
+                    <h3><u>Dorm Clock</u></h3>
+                    <span class="proj-img-help-text">(hover over the image to enlage)</span>
+                    <span class="proj-img-help-text-mobile">(tap the image to enlage)</span>
+                    <br />
+                    <img class="proj-img" src="images/dorm_clockjpg.jpg" />
+                    <br /><br />
+                    <a class="mybold" href="https://github.com/MaxSurets/dorm-clock" target="_blank">GitHub page for the Dorm Clock project</a>
+                    <p>My roomate and I wanted a clock for our dorm room that also displayed relevant and useful information.</p>
+                    <p>We created a webpage that contains the time, day of the week, and weather data using React, React Redux, and express.js to display on a laptop.</p>
+                    <p class="mb-0">Technologies used:</p>
+                    <ul class="skills-list">
+                        <li>React</li>
+                        <li>React Redux</li>
+                        <li>express.js</li>
+                        <li>DarkSky REST API</li>
+                    </ul>
+                </div>
+                <div class="homepage-card card">
+                    <h3><u>Where the Duck?</u></h3>
+                    <span class="proj-img-help-text">(hover over the image to enlage)</span>
+                    <span class="proj-img-help-text-mobile">(tap the image to enlage)</span>
+                    <br />
+                    <div class="wtd-container"><img class="proj-img" src="images/where_the_duck_index.png" /><img class="proj-img" src="images/where_the_duck_feedback.png" /></div>
+                    <br />
+                    <a class="mybold" href="https://github.com/MspMarik/where-the-duck" target="_blank">GitHub page for Where the Duck?</a>
+                    <p>The semester long project for my Web Design and Project Management class was to make a website.</p>
+                    <p>My three group members and I created a simple website that shows the location to many buildings on Stevens Institute of Technology's campus and many other locations (i.e. restaurants) in the surrounding Hoboken area.</p>
+                    <p class="mb-0">Technologies used:</p>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="homepage-card card">
+                    <h3><u>CSV to Excel</u></h3>
+                    <p><a href="https://www.chefmod.com" target="_blank">ChefModd LLC</a> tasked me with creating a file conversion program.</p>
+                    <p>I created helper windows desktop app to convert Excel spreadsheets to CSV text files to automate manual price updates from food suppliers. The app allows the conversion of one or multiple files at a time.</p>
+                    <p class="mb-0">Technologies used:</p>
+                    <ul class="skills-list">
+                        <li>C#</li>
+                        <li>.NET</li>
+                        <li>Windows Forms</li>
+                        <li>Microsoft Office Excel API</li>
+                    </ul>
+                </div>
+                <div class="homepage-card card">
+                    <h3><u>Weather Integration</u></h3>
+                    <p><a href="https://www.chefmod.com" target="_blank">ChefModd LLC</a> tasked me with integrating a weather forecast application into the customer facing web and mobile app.</p>
+                    <p>I created a middleware component to collect weather data from Yahoo Weather services to display relevant weather information for customer facing web and mobile app.</p>
+                    <p class="mb-0">Technologies used:</p>
+                    <ul class="skills-list">
+                        <li>MSSQL Server 2012</li>
+                        <li>LINQ-to-SQL</li>
+                        <li>ORM</li>
+                        <li>WCF</li>
+                        <li>C#</li>
+                        <li>.NET</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
