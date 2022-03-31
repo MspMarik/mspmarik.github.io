@@ -4,6 +4,27 @@
     min-width: 300px !important;
 } */
 
+/* .homeGradient */
+body {
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite; */
+    background: linear-gradient(0deg, rgba(238, 119, 82, 1), rgba(0, 0, 0, 0)), radial-gradient(circle at 50% 50%, rgba(0, 0, 255, 1), #23d5ab);
+    /* filter: contrast(180%) brightness(100%); */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .small {
     width: 50px;
 }
@@ -19,7 +40,7 @@
 }
 
 #my-carousel {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
@@ -39,7 +60,7 @@ p {
     font-size: 15pt;
 }
 
-#homeMe{
+#homeMe {
     margin: 10px;
     width: 20%;
 }
@@ -82,7 +103,7 @@ p {
 
 .skills-list {
     font-size: 15pt;
-    list-style-type: '›  ';
+    list-style-type: "›  ";
 }
 
 #work-places .card {
