@@ -1,38 +1,55 @@
-/* body {
-    background-color: darkseagreen !important;
-    font-family: 'Mina', sans-serif !important;
-    min-width: 300px !important;
-} */
-
-/* .homeGradient */
-body {
-    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite; */
-    background: linear-gradient(0deg, rgba(238, 119, 82, 1), rgba(0, 0, 0, 0)), radial-gradient(circle at 50% 50%, rgba(0, 0, 255, 1), #23d5ab);
-    /* filter: contrast(180%) brightness(100%); */
+@font-face {
+    font-family: ShadowHand;
+    src: url(fonts/ShadowHand.ttf);
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+@font-face {
+    font-family: ObjectSansHeavy;
+    src: url(fonts/PPObjectSans-Heavy.otf);
+}
+
+@font-face {
+    font-family: ObjectSansHeavySlanted;
+    src: url(fonts/PPObjectSans-HeavySlanted.otf);
+}
+
+@font-face {
+    font-family: ObjectSansRegular;
+    src: url(fonts/PPObjectSans-Regular.otf);
+}
+
+@font-face {
+    font-family: ObjectSansSlanted;
+    src: url(fonts/PPObjectSans-Slanted.otf);
+}
+
+h1 {
+    font-family: ObjectSansHeavy;
+    font-size: 4rem !important;
+}
+
+p {
+    font-size: 15pt;
+    font-family: ObjectSansRegular;
+}
+
+.nav-link {
+    font-family: ObjectSansSlanted;
+}
+
+.card-header,
+.card-title,
+.navbar-brand {
+    font-family: ObjectSansHeavy;
+}
+
+.btn {
+    font-family: ObjectSansRegular;
 }
 
 .small {
     width: 50px;
 }
-
-/* .mybold {
-    margin-top: 10px;
-    font-weight: 700;
-} */
 
 .lrpad {
     padding-left: 1em;
@@ -42,22 +59,6 @@ body {
 #my-carousel {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-}
-
-/* .carousel-control-prev {
-    background-color: rgba(0, 0, 0, .3);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.carousel-control-next {
-    background-color: rgba(0, 0, 0, .3);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-} */
-
-p {
-    font-size: 15pt;
 }
 
 #homeMe {
@@ -122,10 +123,6 @@ p {
 
 .wide {
     max-width: 65rem !important;
-}
-
-.card-title {
-    font-weight: bolder;
 }
 
 @media only screen and (max-width: 575px) {
