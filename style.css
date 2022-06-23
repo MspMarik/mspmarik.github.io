@@ -23,6 +23,26 @@
     src: url(fonts/PPObjectSans-Slanted.otf);
 }
 
+@font-face {
+    font-family: FiraSansBlack;
+    src: url(fonts/FiraSans-Black.ttf);
+}
+
+@font-face {
+    font-family: FiraSansBold;
+    src: url(fonts/FiraSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: FiraSansExtraBold;
+    src: url(fonts/FiraSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: FiraSansRegular;
+    src: url(fonts/FiraSans-Regular.ttf);
+}
+
 h1 {
     font-family: ObjectSansHeavy;
     font-size: 4rem !important;
@@ -30,7 +50,11 @@ h1 {
 
 p {
     font-size: 15pt;
-    font-family: ObjectSansRegular;
+    font-family: FiraSansRegular;
+}
+
+li {
+    font-family: FiraSansRegular;
 }
 
 .nav-link {
@@ -40,7 +64,7 @@ p {
 .card-header,
 .card-title,
 .navbar-brand {
-    font-family: ObjectSansHeavy;
+    font-family: FiraSansBold;
 }
 
 .btn {
