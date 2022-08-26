@@ -62,6 +62,7 @@ function draw() {
     // We can't make any more
     if (count < 1) {
         noLoop();
+        removeElems();
         console.log("finished");
     }
 }

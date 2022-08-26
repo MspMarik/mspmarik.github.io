@@ -1,9 +1,15 @@
-function sleep(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-}
+// function sleep(ms) {
+//     return new Promise((resolve) => setTimeout(resolve, ms));
+// }
 
-async function loaded() {
-    await sleep(2000);
+// async function loaded() {
+//     await sleep(2000);
+//     document.getElementById("loadingBg").remove();
+//     document.getElementById("loadingText").remove();
+//     document.getElementById("defaultCanvas0").remove();
+// }
+
+async function removeElems() {
     document.getElementById("loadingBg").remove();
     document.getElementById("loadingText").remove();
     document.getElementById("defaultCanvas0").remove();
