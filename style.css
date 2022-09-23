@@ -144,13 +144,13 @@ canvas {
     transition: width 0.5s;
 }
 
-.proj-img:hover {
+/* .proj-img:hover {
     width: 100%;
-}
+} */
 
-.wtd-container:hover > .proj-img {
+/* .wtd-container:hover > .proj-img {
     width: 100%;
-}
+} */
 
 #important-links {
     margin-left: auto;
