@@ -184,6 +184,11 @@ canvas {
     max-width: 65rem !important;
 }
 
+.navDrawing {
+    padding-right: 0.5em;
+    width: 50px;
+}
+
 @media only screen and (max-width: 575px) {
     .proj-img-help-text {
         display: none;
