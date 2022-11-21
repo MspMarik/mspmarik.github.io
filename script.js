@@ -16,14 +16,23 @@ async function removeElems() {
 }
 
 function toggleZoom(pics, btn) {
+    //zclock, ziothtr, zsprint have only 1 image
     let childs = pics.children;
     if (childs[0].style.width == "100%") {
-        btn.innerHTML = "Click here to enlarge image(s)";
+        if (btn.id == "zclock" || btn.id == "ziothtr" || btn.id == "zsprint") {
+            btn.innerHTML = "Click me to enlarge image";
+        } else {
+            btn.innerHTML = "Click me to enlarge image(s)";
+        }
         for (let child of childs) {
             child.style.width = "45%";
         }
     } else {
-        btn.innerHTML = "Click here to shrink image(s)";
+        if (btn.id == "zclock" || btn.id == "ziothtr" || btn.id == "zsprint") {
+            btn.innerHTML = "Click me to shrink image";
+        } else {
+            btn.innerHTML = "Click me to shrink image(s)";
+        }
         for (let child of childs) {
             child.style.width = "100%";
         }
