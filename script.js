@@ -9,6 +9,15 @@
 //     document.getElementById("defaultCanvas0").remove();
 // }
 
+let firstHomeCardWidth = $("#firstHomeCard").css("max-width").split("px")[0];
+// style.maxWidth;
+let restOfHomeCards = document.getElementsByClassName("homepage-card");
+console.log(firstHomeCardWidth);
+for (let i = 1; i < restOfHomeCards.length; i++) {
+    restOfHomeCards[i].setAttribute("style", `max-width: ${(firstHomeCardWidth - 20) / 2}px !important`);
+    // style.maxWidth = (firstHomeCardWidth - 20) / 2;
+}
+
 async function removeElems() {
     document.getElementById("loadingBg").remove();
     document.getElementById("loadingText").remove();

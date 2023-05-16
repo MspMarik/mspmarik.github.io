@@ -163,7 +163,13 @@ canvas {
 
 .skills-list {
     font-size: 15pt;
-    list-style-type: "›  ";
+    list-style-type: "";
+}
+/* ›   */
+
+.skills-list > li {
+    /* border-top: #444 solid; */
+    border-bottom: #444 solid;
 }
 
 #work-places .card {
