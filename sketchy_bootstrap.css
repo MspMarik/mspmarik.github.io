@@ -4198,6 +4198,7 @@ fieldset:disabled .btn {
     border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
+    margin-right: 1rem !important;
 }
 @media (prefers-reduced-motion: reduce) {
     .navbar-toggler {
@@ -7304,7 +7305,7 @@ fieldset:disabled .btn {
 .sticky-top {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 0.75rem;
     z-index: 1020;
 }
 
