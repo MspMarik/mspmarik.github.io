@@ -49,11 +49,11 @@ html,
 }
 
 h1 {
-    font-size: 4rem !important;
+    /* font-size: 4rem !important; */
 }
 
 p {
-    font-size: 15pt;
+    font-size: 20pt;
 }
 
 canvas {
@@ -179,6 +179,14 @@ canvas {
     padding-right: 0.25em;
     padding-left: 0.5em;
     width: 80px;
+}
+
+.devLink {
+    color: #b3b3b3 !important;
+}
+
+.devLink:hover {
+    color: #868686 !important;
 }
 
 @media only screen and (max-width: 575px) {
