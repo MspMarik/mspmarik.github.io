@@ -1,0 +1,210 @@
+@font-face {
+    font-family: ShadowHand;
+    src: url(fonts/ShadowHand.ttf);
+}
+
+@font-face {
+    font-family: ObjectSansHeavy;
+    src: url(fonts/PPObjectSans-Heavy.otf);
+}
+
+@font-face {
+    font-family: ObjectSansHeavySlanted;
+    src: url(fonts/PPObjectSans-HeavySlanted.otf);
+}
+
+@font-face {
+    font-family: ObjectSansRegular;
+    src: url(fonts/PPObjectSans-Regular.otf);
+}
+
+@font-face {
+    font-family: ObjectSansSlanted;
+    src: url(fonts/PPObjectSans-Slanted.otf);
+}
+
+@font-face {
+    font-family: FiraSansBlack;
+    src: url(fonts/FiraSans-Black.ttf);
+}
+
+@font-face {
+    font-family: FiraSansBold;
+    src: url(fonts/FiraSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: FiraSansExtraBold;
+    src: url(fonts/FiraSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: FiraSansRegular;
+    src: url(fonts/FiraSans-Regular.ttf);
+}
+
+html,
+.bg-tan {
+    background-color: tan !important;
+}
+
+h1 {
+    /* font-size: 4rem !important; */
+}
+
+p {
+    font-size: 20pt;
+}
+
+canvas {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    z-index: 999;
+}
+
+#loadingText {
+    width: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -49px;
+    z-index: 999;
+}
+
+#loadingBg {
+    position: fixed;
+    z-index: 998;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.btn-work {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+/* .small {
+    width: 70px;
+} */
+
+.lrpad {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#my-carousel {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#homeMe {
+    margin: 10px;
+    width: 20%;
+}
+
+.row .card {
+    min-width: 18rem;
+    max-width: 24rem;
+}
+
+.proj-img-help-text {
+    display: unset;
+}
+
+.proj-img-help-text-mobile {
+    display: none;
+}
+
+.proj-img {
+    width: 45%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: width 0.5s;
+}
+
+/* .proj-img:hover {
+    width: 100%;
+} */
+
+/* .wtd-container:hover > .proj-img {
+    width: 100%;
+} */
+
+#important-links {
+    margin-left: auto;
+}
+
+#important-links .card {
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+.skills-list {
+    font-size: 15pt;
+    list-style-type: "";
+}
+/* ›   */
+
+.skills-list > li {
+    /* border-top: #444 solid; */
+    border-bottom: #444 solid;
+}
+
+#work-places .card {
+    margin: 7px;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.homepage-card {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.wide {
+    max-width: 65rem !important;
+}
+
+.navDrawing {
+    padding-right: 0.25em;
+    padding-left: 0.5em;
+    width: 80px;
+}
+
+.devLink {
+    color: #b3b3b3 !important;
+}
+
+.devLink:hover {
+    color: #868686 !important;
+}
+
+.photoLinkList {
+    list-style: none;
+    font-size: larger;
+    padding: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .proj-img-help-text {
+        display: none;
+    }
+
+    .proj-img-help-text-mobile {
+        display: unset;
+    }
+
+    .proj-img:active {
+        width: 100%;
+    }
+}
