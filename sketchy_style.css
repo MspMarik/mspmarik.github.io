@@ -189,6 +189,12 @@ canvas {
     color: #868686 !important;
 }
 
+.photoLinkList {
+    list-style: none;
+    font-size: larger;
+    padding: 0;
+}
+
 @media only screen and (max-width: 575px) {
     .proj-img-help-text {
         display: none;
