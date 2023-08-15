@@ -43,9 +43,50 @@
     src: url(fonts/FiraSans-Regular.ttf);
 }
 
-html,
-.bg-tan {
+body {
+    height: 100% !important;
     background-color: tan !important;
+}
+
+/* #bg-mush {
+    position: relative;
+    overflow: hidden;
+}
+
+#bg-mush::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url("../../images/mushroom.png") 0 0 repeat;
+    transform: rotate(30deg);
+} */
+
+#bg-mush {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    opacity: 30%;
+    z-index: -1;
+}
+
+#bg-mush:before {
+    transform: rotate(30deg);
+    content: "";
+    position: fixed;
+    overflow: hidden;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url("images/mushroom.png") 0 0 space;
+    background-size: auto;
 }
 
 h1 {
@@ -107,6 +148,7 @@ canvas {
 #homeMe {
     margin: 10px;
     width: 20%;
+    min-width: 200px;
 }
 
 .row .card {
@@ -208,3 +250,25 @@ canvas {
         width: 100%;
     }
 }
+
+@media (max-width: 390px) {
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 348px) {
+    .navbar-brand {
+        font-size: 1.4rem !important;
+    }
+
+    /* .navDrawing {
+        max-width: 50px;
+    } */
+}
+
+/* @media (max-width: 320px) {
+    .navbar-brand {
+        font-size: 1.3rem !important;
+    }
+} */
