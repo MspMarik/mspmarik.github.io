@@ -220,7 +220,7 @@ canvas {
 .navDrawing {
     padding-right: 0.25em;
     padding-left: 0.5em;
-    width: 80px;
+    max-width: 80px;
 }
 
 .devLink {
@@ -255,6 +255,10 @@ canvas {
     .navbar-brand {
         font-size: 1.5rem !important;
     }
+
+    .navDrawing {
+        width: 60px;
+    }
 }
 
 @media (max-width: 348px) {
@@ -262,13 +266,7 @@ canvas {
         font-size: 1.4rem !important;
     }
 
-    /* .navDrawing {
-        max-width: 50px;
-    } */
-}
-
-/* @media (max-width: 320px) {
-    .navbar-brand {
-        font-size: 1.3rem !important;
+    .navDrawing {
+        width: 55px;
     }
-} */
+}
