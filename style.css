@@ -195,6 +195,18 @@ canvas {
     width: 50px;
 }
 
+@media screen and (max-width: 800px) {
+    #homeMe {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #homeMe {
+        width: 50%;
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .proj-img-help-text {
         display: none;
