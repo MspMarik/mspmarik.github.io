@@ -237,6 +237,32 @@ canvas {
     padding: 0;
 }
 
+/* @media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 4rem !important;
+    }
+} */
+
+.featPhotos {
+    max-width: 50rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+@media screen and (min-width: 1657px) {
+    .featPhotos {
+        /* margin: 0px !important; */
+    }
+
+    .featPhotos1 {
+        margin-right: 0px !important;
+    }
+
+    .featPhotos2 {
+        margin-left: 0px !important;
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .proj-img-help-text {
         display: none;
