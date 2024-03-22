@@ -43,9 +43,21 @@
     src: url(fonts/FiraSans-Regular.ttf);
 }
 
-body {
+html {
     height: 100% !important;
+    width: 100% !important;
     background-color: tan !important;
+    background-image: url("images/forest.jpg");
+    background-size: span;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    z-index: -1;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 /* #bg-mush {
@@ -75,7 +87,7 @@ body {
     z-index: -1;
 }
 
-#bg-mush:before {
+/* #bg-mush:before {
     transform: rotate(30deg);
     content: "";
     position: fixed;
@@ -87,7 +99,7 @@ body {
     z-index: -1;
     background: url("images/mushroom.png") 0 0 space;
     background-size: auto;
-}
+} */
 
 h1 {
     /* font-size: 4rem !important; */
@@ -124,6 +136,14 @@ canvas {
     background-color: rgb(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
+}
+
+.bg-tan {
+    background-color: rgba(210, 180, 140, 0.26);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 27px;
+    margin: 10px;
 }
 
 .btn-work {
