@@ -50,7 +50,7 @@ html {
     background-image: url("images/forest.jpg");
     background-size: span;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     /* filter: blur(8px);
     -webkit-filter: blur(8px); */
     z-index: -1;
@@ -144,6 +144,7 @@ canvas {
     padding: 10px;
     border-radius: 27px;
     margin: 10px;
+    color: #fff;
 }
 
 .btn-work {
