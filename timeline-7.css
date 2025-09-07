@@ -68,11 +68,9 @@ ul.timeline-list li {
     border-style: solid;
     background-color: var(--dark);
 }
-ul.timeline-list li:nth-child(odd) .timeline_content {
-    border-image: linear-gradient(45deg, #d7b47c, var(--warning), #d7b47c) 1;
-}
-ul.timeline-list li:nth-child(even) .timeline_content {
-    border-image: linear-gradient(45deg, var(--warning), #d7b47c, var(--warning)) 1;
+.timeline_content > h4 {
+    /* font-weight: bolder; */
+    font-family: ObjectSansHeavy;
 }
 ul.timeline-list li .timeline_content {
     width: 45%;
@@ -81,7 +79,13 @@ ul.timeline-list li .timeline_content {
     float: left;
     text-align: right;
 }
-ul.timeline-list li:nth-child(2n) .timeline_content {
+ul.timeline-list li:nth-child(odd) .timeline_content {
+    border-image: linear-gradient(45deg, #d7b47c, var(--warning), #d7b47c) 1;
+    padding-left: 25px;
+}
+ul.timeline-list li:nth-child(even) .timeline_content {
+    border-image: linear-gradient(45deg, var(--warning), #d7b47c, var(--warning)) 1;
+    padding-right: 25px;
     float: right;
     text-align: left;
 }
