@@ -49,6 +49,7 @@
 }
 
 html {
+    background-color: black;
     background-image: url("images/forest_bw_blur-1440p.jpg");
     background-size: contain;
     background-position: center;
