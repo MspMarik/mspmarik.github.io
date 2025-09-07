@@ -45,6 +45,7 @@
 
 :root {
     --bord-raid: 27px;
+    --site-txt-size: 14.4pt;
 }
 
 html {
@@ -65,7 +66,7 @@ h1 {
 }
 
 p {
-    font-size: 15pt;
+    font-size: var(--site-txt-size);
     font-family: FiraSansRegular;
 }
 
@@ -102,9 +103,52 @@ canvas {
     height: 100%;
 }
 
-.nav-link {
+.nav-item {
     font-family: ObjectSansSlanted;
 }
+
+.nav-item.active {
+    font-family: ObjectSansHeavy !important;
+    /* font-weight: bolder !important; */
+    text-decoration: unset;
+}
+.nav-item:hover {
+    text-decoration-line: overline;
+    text-decoration: #fff wavy underline 1pt;
+}
+
+.nav-item.nav-work > a {
+    color: #d7b47c !important;
+}
+
+.nav-item.nav-work > a:hover {
+    color: var(--warning) !important;
+}
+
+.nav-item.nav-projects > a {
+    color: #83b0a4 !important;
+}
+
+.nav-item.nav-projects > a:hover {
+    color: var(--success) !important;
+}
+
+.nav-item.nav-github > a {
+    color: #edafa9 !important;
+}
+
+.nav-item.nav-github > a:hover {
+    color: var(--danger) !important;
+}
+
+.nav-item.nav-linkedin > a {
+    color: #8ab2ce !important;
+}
+
+.nav-item.nav-linkedin > a:hover {
+    color: var(--info) !important;
+}
+
 .navbar {
     border-radius: var(--bord-raid) !important;
     margin-top: 10px;
@@ -195,7 +239,7 @@ canvas {
 }
 
 .skills-list {
-    font-size: 15pt;
+    font-size: var(--site-txt-size);
     list-style-type: "";
 }
 /* ›   */
