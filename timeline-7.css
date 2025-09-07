@@ -89,7 +89,8 @@ ul.timeline-list li:before {
     background-color: #ff3636;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
+    /* -webkit-transform: translate(-50%, -50%); */
+    -webkit-transform: translate(50%, 50vw);
     transform: translate(-50%, -50%);
     border-radius: 50%;
 }
