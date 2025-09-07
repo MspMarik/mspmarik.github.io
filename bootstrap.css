@@ -4457,6 +4457,8 @@ input[type="button"].btn-block {
 .nav-link {
     display: block;
     padding: 0.5rem 2rem;
+    /* font-size: var(--site-font-size); */
+    font-size: 13pt;
 }
 
 .nav-link:hover,
@@ -4576,7 +4578,8 @@ input[type="button"].btn-block {
     padding-top: 0.324219rem;
     padding-bottom: 0.324219rem;
     margin-right: 1rem;
-    font-size: 1.171875rem;
+    /* font-size: 1.171875rem; */
+    font-size: 1.9rem;
     line-height: inherit;
     white-space: nowrap;
 }

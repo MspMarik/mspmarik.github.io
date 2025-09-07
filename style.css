@@ -45,7 +45,7 @@
 
 :root {
     --bord-raid: 27px;
-    --site-txt-size: 14.4pt;
+    --site-font-size: 14.4pt;
 }
 
 html {
@@ -67,7 +67,7 @@ h1 {
 }
 
 p {
-    font-size: var(--site-txt-size);
+    font-size: var(--site-font-size);
     font-family: FiraSansRegular;
 }
 
@@ -108,16 +108,16 @@ canvas {
     font-family: ObjectSansSlanted;
 }
 
-.nav-item.active {
-    font-family: ObjectSansHeavy !important;
-    /* font-weight: bolder !important; */
-    text-decoration: unset;
-}
 .nav-item:hover {
     text-decoration-line: overline;
     text-decoration: #fff wavy underline 1pt;
 }
 
+.nav-item.active {
+    font-family: ObjectSansHeavy !important;
+    /* font-weight: bolder !important; */
+    text-decoration: unset;
+}
 .nav-item.nav-work > a {
     color: #d7b47c !important;
 }
@@ -178,10 +178,6 @@ canvas {
     padding-right: 8px !important;
 }
 
-.small {
-    width: 50px;
-}
-
 .lrpad {
     padding-left: 1em;
     padding-right: 1em;
@@ -200,6 +196,9 @@ canvas {
 .row .card {
     min-width: 18rem;
     max-width: 24rem;
+    /* border-image: linear-gradient(45deg, rgba(255, 255, 255, 0.6), #fff, rgba(255, 255, 255, 0.6)) 1;
+    border-width: 2px;
+    border-style: solid; */
 }
 
 .proj-img-help-text {
@@ -240,10 +239,9 @@ canvas {
 }
 
 .skills-list {
-    font-size: var(--site-txt-size);
+    font-size: var(--site-font-size);
     list-style-type: "";
 }
-/* ›   */
 
 .skills-list > li {
     /* border-top: #444 solid; */
@@ -270,7 +268,7 @@ canvas {
 
 .navDrawing {
     padding-right: 0.5em;
-    width: 50px;
+    width: 100px;
 }
 
 @media screen and (max-width: 800px) {
