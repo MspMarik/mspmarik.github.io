@@ -48,9 +48,10 @@ ul.timeline-list {
 ul.timeline-list:before {
     position: absolute;
     content: "";
-    width: 2px;
+    width: 3.5px;
     height: 100%;
-    background-color: var(--warning);
+    /* background-color: var(--warning); */
+    background: linear-gradient(to bottom, var(--warning), var(--warning), #d7b47c, #d4860b, #d4860b, var(--warning), #d7b47c);
     left: 50%;
     top: 0;
     -webkit-transform: translateX(-50%);
@@ -62,8 +63,16 @@ ul.timeline-list li {
     display: table;
 }
 .timeline_content {
-    border: 2px solid var(--warning);
+    /* border: 2px solid var(--warning); */
+    border-width: 2px;
+    border-style: solid;
     background-color: var(--dark);
+}
+ul.timeline-list li:nth-child(odd) .timeline_content {
+    border-image: linear-gradient(45deg, #d7b47c, var(--warning), #d7b47c) 1;
+}
+ul.timeline-list li:nth-child(even) .timeline_content {
+    border-image: linear-gradient(45deg, var(--warning), #d7b47c, var(--warning)) 1;
 }
 ul.timeline-list li .timeline_content {
     width: 45%;
