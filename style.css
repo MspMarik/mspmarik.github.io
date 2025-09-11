@@ -46,6 +46,7 @@
 :root {
     --bord-raid: 27px;
     --site-font-size: 14.4pt;
+    --card-border-radius: 0.25rem;
 }
 
 html {
@@ -64,6 +65,11 @@ body {
 h1 {
     font-family: ObjectSansHeavy;
     font-size: 4rem !important;
+    /* -webkit-text-stroke: 2px #444; */
+    /* text-stroke: 2px #444; */
+    /* background: radial-gradient(circle, #444 0%, transparent 100%); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
 }
 
 p {
